@@ -12,4 +12,5 @@ class MyListFactory
         $em = $container->get(EntityManager::class);
         return new MyListHandler($em);
     }
+    
 }
